@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Comments"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/azul"/>
+
+    <TextView
+        android:id="@+id/PostId"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Post Id:"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/post_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post_id"
+        android:background="@color/rosado"/>
+
+    <TextView
+        android:id="@+id/Id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="ID:"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:background="@color/rosado"/>
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Name:"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:background="@color/rosado"/>
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Email:"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:background="@color/rosado"/>
+
+    <TextView
+        android:id="@+id/Body"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Body:"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="body"
+        android:background="@color/rosado"/>
+
+    <Button
+        android:id="@+id/btnConsultarPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultas de Comments"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>

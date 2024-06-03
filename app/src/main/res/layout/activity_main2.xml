@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/get"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Metodo Get - Consultas"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/verde"/>
+
+    <TextView
+        android:id="@+id/PostIdConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="ID:"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        />
+
+    <EditText
+        android:id="@+id/txtID2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese ID del comentario a buscar" />
+
+    <Button
+        android:id="@+id/btnBuscarComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Comentario"/>
+
+    <TextView
+        android:id="@+id/PostId2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Post Id:"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/post_id2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post_id" />
+
+    <TextView
+        android:id="@+id/Name2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Name:"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Email:"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email" />
+
+    <TextView
+        android:id="@+id/Body"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Body:"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/body2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Body" />
+
+</LinearLayout>
